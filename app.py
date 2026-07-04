@@ -2,7 +2,7 @@
 SaaS Customer Churn Prediction — Streamlit Web App
 ====================================================
 Deployed on Streamlit Cloud
-Author : Sudipta  |  NIT Tiruchirappalli
+Author : Sudipta Sarkar  |  NIT Tiruchirappalli
 Guide  : Dr. S. Saroja
 """
 
@@ -131,7 +131,7 @@ def fig_to_b64(fig):
 # SIDEBAR
 # ══════════════════════════════════════════════════════════════════════════════
 with st.sidebar:
-    logo_path = os.path.join(os.path.dirname(__file__), "assets", "nit_logo_rgb.png")
+    logo_path = os.path.join(os.path.dirname(__file__), "assets", "NITT_logo.png")
     if os.path.exists(logo_path):
         st.image(logo_path, width=80)
 
@@ -139,7 +139,7 @@ with st.sidebar:
     st.markdown("**Dept. of Computer Science**")
     st.markdown("---")
     st.markdown("**Project:** SaaS Churn Prediction")
-    st.markdown("**Author:** Sudipta")
+    st.markdown("**Author:** Sudipta Sarkar")
     st.markdown("**Guide:** Dr. S. Saroja")
     st.markdown("**Accuracy:** 83.9%")
     st.markdown("---")
