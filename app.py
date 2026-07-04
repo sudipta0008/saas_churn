@@ -136,7 +136,7 @@ with st.sidebar:
         st.image(logo_path, width=80)
 
     st.markdown("### NIT Tiruchirappalli")
-    st.markdown("**Dept. of Computer Science**")
+    st.markdown("**Dept. of Computer Applications**")
     st.markdown("---")
     st.markdown("**Project:** SaaS Churn Prediction")
     st.markdown("**Author:** Sudipta Sarkar")
